@@ -292,7 +292,7 @@ Create a balanced and appealing recipe.
       item.id.toLowerCase().includes(searchQuery.toLowerCase()) &&
       item.quantity !== null
   );
-  console.log(filteredInventory);
+  //console.log(filteredInventory);
   return (
     <ThemeProvider theme={theme}>
       <>
