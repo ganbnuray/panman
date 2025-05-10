@@ -24,7 +24,7 @@ import { getVertexAI, getGenerativeModel } from "firebase/vertexai-preview";
 const vertexAI = getVertexAI(app);
 // Initialize the generative model with a model that supports your use case
 // Gemini 1.5 models are versatile and can be used with all API capabilities
-const model = getGenerativeModel(vertexAI, { model: "gemini-1.5-flash" });
+const model = getGenerativeModel(vertexAI, { model: "gemini-2.0-flash-001" });
 const istok_web = Istok_Web({ weight: ["400", "700"], subsets: ["latin"] });
 const galada = Galada({ weight: "400", subsets: ["latin"] });
 const theme = createTheme({
